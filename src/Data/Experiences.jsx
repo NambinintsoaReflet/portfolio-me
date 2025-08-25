@@ -2,7 +2,7 @@ import { title } from "motion/react-client";
 
 export const experiences = [
   {
-    title: "Assistant informatique",
+    title: "Assistant informatique (IT)",
     company: "Société HITA",
     location: "Toamasina, Madagascar",
     date: "07/2025 – présent",
