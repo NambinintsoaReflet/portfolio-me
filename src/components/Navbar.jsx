@@ -1,4 +1,6 @@
 import React from "react";
+import { FaFacebook } from "react-icons/fa";
+import { IoLogoWhatsapp } from "react-icons/io";
 import { MdDownload, MdDownloadForOffline } from "react-icons/md";
 
 const Navbar = () => {
@@ -7,9 +9,10 @@ const Navbar = () => {
       <h1 className="text-md font-bold text-[#495051] lg:text-xl">
         NAMBININTSOA OLIVIER
       </h1>
-      <nav className="flex gap-4">
+      <nav className="flex items-center gap-4">
+        <FaFacebook className="w-6 h-6 text-blue-600 cursor-pointer"/>
         <button className="flex items-center justify-center bg-green-600/90 text-white px-4 py-2 rounded-full cursor-pointer hover:bg-green-600 transition duration-300">
-         <span className="mr-2">Download CV
+         <span className="mr-2">Telecharger CV
           </span> 
          <MdDownloadForOffline className="w-6 h-6" />
         </button>

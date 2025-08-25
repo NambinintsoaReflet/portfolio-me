@@ -11,7 +11,7 @@ const Header = () => {
   const stats = [
     { name: "Années d'Expérience", value: "2+" },
     { name: "Projets Réalisés", value: "5+" },
-    { name: "Certifications", value: "6+" },
+    { name: "Certifications", value: "4+" },
     { name: "Collaborateurs satisfaits", value: "5+" },
   ];
   return (
@@ -30,7 +30,7 @@ const Header = () => {
       <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-4xl font-semibold tracking-tight text-white sm:text-6xl" >
-            Développeur Front-end & Administrateur Réseaux
+            Développeur Front-end & Administrateur Réseaux Junior
           </h2>
           <p className="mt-8 text-lg font-medium text-pretty text-white sm:text-xl/8">
             Passionné par la création d'expériences web modernes et fluides. Ma
